@@ -542,7 +542,7 @@ html {
   border-radius: 0.5rem;
   color: #fff;
   margin-right: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .content-right input::placeholder {
@@ -566,4 +566,46 @@ html {
 
 /* End of Contact */
 
+/* Footer*/
+.footer {
+  width: 50%;
+  height: 5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1rem solid #ccc;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  color: #073e72;
+}
+
+.copyright a {
+  color: #073e72;
+}
+
+.copyright a:hover {
+  color: #000;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand i {
+  font-size: 2rem;
+  color: #f8872b;
+  margin-right: 1rem;
+}
+
+.brand h1 {
+  font-family: "Kenia", cursive;
+  font-size: 2rem;
+  color: #073e72;
+  letter-spacing: 0.3rem;
+}
+/* End of Footer*/
 /* End of Container */
