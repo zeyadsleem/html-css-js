@@ -397,7 +397,7 @@ html {
 
 .stars i {
   font-size: 1.6rem;
-  color: #f8872b;
+  color: #ffb128;
 }
 
 .pricing-card h4 {
@@ -419,8 +419,9 @@ html {
 
 .blog-content {
   width: 60%;
+  padding-top: 5rem;
   height: 50rem;
-  background-color: #f8872b;
+  background-color: #ffb128;
   border-radius: 3rem;
 }
 
@@ -483,5 +484,86 @@ html {
   margin-right: 1rem;
 }
 /* End of Blog */
+
+/* Contact */
+.contact {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  width: 60%;
+  height: 15rem;
+  display: flex;
+}
+
+.content-left {
+  width: 40%;
+  height: 100%;
+  background-color: #ffb128;
+  border-radius: 2rem 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-left h2 {
+  width: 80%;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.content-left span {
+  font-size: 2.5rem;
+  color: #073e72;
+}
+
+.content-right {
+  width: 60%;
+  height: 100%;
+  background-color: #0b3954;
+  border-radius: 0 2rem 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-right input {
+  width: 30rem;
+  height: 4rem;
+  background-color: #174b69;
+  padding: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+}
+
+.content-right input::placeholder {
+  color: #fff;
+}
+
+.content-right input:focus {
+  border: 0.1rem solid #f8872b;
+}
+
+.content-right button {
+  width: 10rem;
+  height: 4rem;
+  background-color: #f8872b;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* End of Contact */
 
 /* End of Container */
