@@ -1,0 +1,54 @@
+:root {
+  --clr-dark: #080b12;
+  --clr-light: #f3f4f6;
+  --clr-slate-400: #9ca3af;
+  --clr-slate600: #4b5563;
+  --clr-slate800: #1f2937;
+  --clr-rose: #db2777;
+  --clr-indigo: #4f46e5;
+
+  /* rose rgb(219, 39, 119) */
+  /* indigo rgb(79, 70, 229) */
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em * 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  color: var(--clr-rose);
+}
+
+strong {
+  color: var(--clr-indigo);
+}
